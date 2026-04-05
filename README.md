@@ -40,7 +40,7 @@ sys	0m1.331s
 
 ## **Go** (plain):
 
-````sh
+```sh
 ╰→ time ./totalsum2-go
 Go
 3×suma(1000000000) = 63244053298881
@@ -53,4 +53,7 @@ sys	0m0.008s
 ---
 
 _Ramón Barrios Láscar_, 2026
-````
+
+```
+
+```
