@@ -129,12 +129,16 @@ sys	0m0.029s
 ## **SQLite3 SQL**:
 
 ```sh
-╰→ time sqlite3 < totalsum2-sqlite.sql
-3×suma(1000000000) = 63244053298881|Status: Correct
+╰→ time sqlite3 -table < totalsum2-sqlite.sql
++-------------------------------------+-----------------+
+|               output                |   validation    |
++-------------------------------------+-----------------+
+| 3×suma(1000000000) = 63244053298881 | Status: Correct |
++-------------------------------------+-----------------+
 
-real	2m48.724s
-user	2m47.906s
-sys	0m0.354s
+real	2m48.446s
+user	2m47.568s
+sys	0m0.384s
 ```
 
 ---
