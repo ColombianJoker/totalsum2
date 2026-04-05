@@ -86,6 +86,18 @@ user	2m29.139s
 sys	0m0.284s
 ```
 
+## **TCL**:
+
+```sh
+╰→ time ./totalsum2.tcl
+Tcl:
+3×suma(1000000000) = 63244053298881
+
+real	9m23.897s
+user	9m21.249s
+sys	0m1.332s
+```
+
 ---
 
 **_Ramón Barrios Láscar, 2026_**
