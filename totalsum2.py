@@ -23,7 +23,10 @@ block: int = 1_000_000_000
 times: int = 3
 total: int = 0
 
-print(f"Python")
+print(f"Python:")
 for i in range(1, times + 1):
     total = total + suma(block)
 print(f"{times}×suma({block}) = {total}")
+
+if total != 63244053298881:
+    print(f"ERROR: wrong result! ({total})")

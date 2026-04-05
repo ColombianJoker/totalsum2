@@ -29,3 +29,6 @@ block = UInt64(1000000000)
 s_arr = zeros(UInt64, times)
 main(times, block)
 println("$(times)×suma($(block)) = $(sum(s_arr))")
+if sum(s_arr)!=63244053298881 then
+    println("ERROR: wrong result! ($sum(s_arr))")
+end # if sum()

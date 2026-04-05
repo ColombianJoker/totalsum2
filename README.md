@@ -33,9 +33,9 @@ sys	0m0.980s
 Julia:
 3×suma(1000000000) = 63244053298881
 
-real	0m3.056s
-user	0m3.224s
-sys	0m1.698s
+real	0m3.146s
+user	0m3.565s
+sys	0m1.331s
 ```
 
 ---
