@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"math"
+	"os"
 )
 
 // suma returns the sum of integer (truncated) square roots of numbers up to n.
@@ -30,4 +31,8 @@ func main() {
 	}
 
 	fmt.Printf("%d×suma(%d) = %d\n", times, block, total)
+
+	if total != 63244053298881 {
+		fmt.Fprintf(os.Stderr, "ERROR: wrong result! (%d)", total)
+	}
 }
