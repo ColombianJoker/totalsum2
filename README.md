@@ -17,5 +17,11 @@ sys	0m0.004s
 ## **Python**:
 
 ```sh
+╰→ time ./totalsum2.py
+Python
+3×suma(1000000000) = 63244053298881
 
+real	6m10.351s
+user	6m7.784s
+sys	0m0.980s
 ```
