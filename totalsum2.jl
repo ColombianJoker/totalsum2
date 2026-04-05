@@ -28,4 +28,4 @@ block = UInt64(1000000000)
 
 s_arr = zeros(UInt64, times)
 main(times, block)
-println("$(times)×suma_real($(block)) = $(sum(s_arr))")
+println("$(times)×suma($(block)) = $(sum(s_arr))")

@@ -28,16 +28,18 @@ sys	0m0.980s
 
 ## **Julia** (plain):
 
-```sh
+````sh
+╰→ time ./totalsum2.jl
 ╰→ time ./totalsum2.jl
 Julia:
-3×suma_real(1000000000) = 63244053298881
+3×suma(1000000000) = 63244053298881
 
-real	0m3.086s
-user	0m3.460s
-sys	0m1.415s
+real	0m3.056s
+user	0m3.224s
+sys	0m1.698s
 ```
 
 ---
 
 _Ramón Barrios Láscar_, 2026
+````
