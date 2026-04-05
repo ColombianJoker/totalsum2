@@ -1,4 +1,4 @@
-#!/usr/bin/emv julia -t auto
+#!/usr/bin/env julia -t auto
 #
 
 function suma(n::UInt64)::UInt64
@@ -16,4 +16,16 @@ function suma(n::UInt64)::UInt64
 end # fn suma()
 
 function main(times, block)
-    for
+    for i in 1:times
+        s_arr[i] = suma(block)
+    end # for i
+    return s_arr
+end # fn main()
+
+println("Julia:")
+times = UInt64(3)
+block = UInt64(1000000000)
+
+s_arr = zeros(UInt64, times)
+main(times, block)
+println("$(times)×suma_real($(block)) = $(sum(s_arr))")
