@@ -141,6 +141,18 @@ user	2m47.568s
 sys	0m0.384s
 ```
 
+## **AWK**:
+
+```sh
+╰→ time ./totalsum2.awk
+awk:
+3×suma(1000000000) = 63244053298881
+
+real	4m52.347s
+user	4m50.648s
+sys	0m0.653s
+```
+
 ---
 
 **_Ramón Barrios Láscar, 2026_**
