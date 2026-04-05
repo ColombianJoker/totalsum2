@@ -29,6 +29,8 @@ int main() {
 
   // %lld is the format specifier for long long
   printf("%d×suma(%d) = %lld\n", times, block, total);
-
+  if (total != 63244053298881) {
+    fprintf(stderr, "ERROR: wrong result! (%llu)\n", total);
+  }
   return 0;
 }
