@@ -62,6 +62,18 @@ user	0m2.238s
 sys	0m0.008s
 ```
 
+## **Lua**:
+
+```sh
+╰→ time ./totalsum2.lua
+Lua:
+3×suma(1000000000) = 63244053298881
+
+real	2m29.771s
+user	2m29.139s
+sys	0m0.284s
+```
+
 ---
 
 **_Ramón Barrios Láscar, 2026_**
