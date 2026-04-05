@@ -50,10 +50,18 @@ user	0m1.879s
 sys	0m0.008s
 ```
 
+## (Free) **Pascal**:
+
+```sh
+╰→ time ./totalsum2-pas
+Pascal:
+3×suma(1000000000) = 63244053298881
+
+real	0m2.250s
+user	0m2.238s
+sys	0m0.008s
+```
+
 ---
 
-_Ramón Barrios Láscar_, 2026
-
-```
-
-```
+**_Ramón Barrios Láscar, 2026_**
