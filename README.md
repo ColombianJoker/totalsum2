@@ -14,28 +14,16 @@ user	0m0.956s
 sys	0m0.006s
 ```
 
-## **Python**:
+## **Fortran** (LLVM v19):
 
-```sh
-╰→ time ./totalsum2.py
-Python
-3×suma(1000000000) = 63244053298881
-
-real	6m10.351s
-user	6m7.784s
-sys	0m0.980s
 ```
-
-## **Julia** (plain):
-
-```sh
-╰→ time ./totalsum2.jl
-Julia:
+╰→ time ./totalsum2-fortran
+ Fortran:
 3×suma(1000000000) = 63244053298881
 
-real	0m3.146s
-user	0m3.565s
-sys	0m1.331s
+real	0m0.952s
+user	0m0.944s
+sys	0m0.005s
 ```
 
 ## **Go** (plain):
@@ -84,6 +72,30 @@ Zig:
 real	0m2.830s
 user	0m2.812s
 sys	0m0.010s
+```
+
+## **Python**:
+
+```sh
+╰→ time ./totalsum2.py
+Python
+3×suma(1000000000) = 63244053298881
+
+real	6m10.351s
+user	6m7.784s
+sys	0m0.980s
+```
+
+## **Julia** (plain):
+
+```sh
+╰→ time ./totalsum2.jl
+Julia:
+3×suma(1000000000) = 63244053298881
+
+real	0m3.146s
+user	0m3.565s
+sys	0m1.331s
 ```
 
 ## **Lua**:
