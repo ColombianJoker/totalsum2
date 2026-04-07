@@ -87,6 +87,18 @@ user	0m1.961s
 sys	0m0.006s
 ```
 
+### **Rust** (with threads):
+
+```sh
+╰→ time ./totalsum2-rs-th
+Rust (with threads):
+3×suma(1000000000) = 63244053298881
+
+real	0m0.688s
+user	0m2.023s
+sys	0m0.009s
+```
+
 ## **Zig**:
 
 ```sh
