@@ -27,6 +27,18 @@ user	0m1.022s
 sys	0m0.007s
 ```
 
+### **C** (with OpenMP):
+
+```
+╰→ time ./totalsum2-c-omp
+C (OpenMP):
+3×suma(1000000000) = 63244053298881
+
+real	0m0.349s
+user	0m0.996s
+sys	0m0.010s
+```
+
 ## **Fortran** (LLVM v19):
 
 ```
