@@ -14,6 +14,19 @@ user	0m0.956s
 sys	0m0.006s
 ```
 
+### **C** (with POSIX threads):
+
+```
+╰→ cc -O3 -pthread totalsum2-pth.c -o totalsum2-c-pth -lm -Wno-gnu-folding-constant
+╰→ time ./totalsum2-c-pth
+C (Pthreads):
+3×suma(1000000000) = 63244053298881
+
+real	0m0.351s
+user	0m1.022s
+sys	0m0.007s
+```
+
 ## **Fortran** (LLVM v19):
 
 ```
