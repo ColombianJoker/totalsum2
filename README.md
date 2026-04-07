@@ -161,7 +161,7 @@ sys	0m0.980s
 
 ### **Cython** (loads `totalsum2_cy.pyx` after setup):
 
-```
+```sh
 ╰→ time ./totalsum2_cy_main.py
 Cython:
 3×suma(1000000000) = 63244053298881
@@ -169,6 +169,18 @@ Cython:
 real	0m1.170s
 user	0m1.120s
 sys	0m0.037s
+```
+
+### **Python** (parallel):
+
+```sh
+╰→ time ./totalsum2-ppe.py
+Python (Parallel):
+3×suma(1000000000) = 63244053298881
+
+real	2m7.343s
+user	6m13.136s
+sys	0m0.555s
 ```
 
 ## **Julia** (plain):
