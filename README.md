@@ -75,6 +75,18 @@ user	0m2.238s
 sys	0m0.008s
 ```
 
+### (Free) **Pascal** (with threads):
+
+```sh
+╰→ time ./totalsum2-pas-th
+Pascal (Threads):
+3×suma(1000000000) = 63244053298881
+
+real	0m0.743s
+user	0m2.035s
+sys	0m0.011s
+```
+
 ## **Rust**:
 
 ```sh
