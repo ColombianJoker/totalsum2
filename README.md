@@ -195,6 +195,18 @@ user	0m3.565s
 sys	0m1.331s
 ```
 
+### **Julia** (with threads):
+
+```sh
+╰→ time ./totalsum2-th1.jl
+Julia (with @threads):
+3×suma(1000000000) = 63244053298881
+
+real	0m1.292s
+user	0m3.780s
+sys	0m1.314s
+```
+
 ## **Lua**:
 
 ```sh
