@@ -51,6 +51,18 @@ user	0m1.879s
 sys	0m0.008s
 ```
 
+### **Go** (with coroutines):
+
+```sh
+╰→ time ./totalsum2-go-coro
+Go (Parallel Goroutines)
+3×suma(1000000000) = 63244053298881
+
+real	0m0.686s
+user	0m2.017s
+sys	0m0.012s
+```
+
 ## (Free) **Pascal**:
 
 ```sh
