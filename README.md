@@ -99,6 +99,18 @@ user	0m2.812s
 sys	0m0.010s
 ```
 
+### **Zig** (parallel threads):
+
+```sh
+╰→ time ./totalsum2-zig-th
+Zig (Parallel Threads):
+3×suma(1000000000) = 63244053298881
+
+real	0m1.012s
+user	0m2.994s
+sys	0m0.010s
+```
+
 ## **Python**:
 
 ```sh
